@@ -108,7 +108,8 @@
             android:layout_height="wrap_content"
             android:id="@+id/txt_No_telp"
             android:layout_toRightOf="@+id/txt"
-            android:layout_below="@+id/txt"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_below="@+id/txt_umur"
             android:text=""/>
 
         <TextView
@@ -123,7 +124,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/txt_riwayat"
-            android:layout_toRightOf="@+id/txt2"
+            android:layout_marginLeft="@dimen/_30sdp"
             android:layout_below="@+id/txt2"
             android:text=""/>
 
@@ -195,6 +196,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/txt_note"
             android:layout_below="@+id/txt5"
+            android:layout_toRightOf="@+id/txt5"
             android:layout_marginTop="@dimen/_5sdp"
             android:text="Tidak - ada"/>
 
@@ -204,7 +206,7 @@
             android:id="@+id/txt_per"
             android:layout_marginTop="@dimen/_10sdp"
             android:layout_below="@+id/txt_note"
-            android:text="Perawatan"/>
+            android:text="Perawatan :"/>
 
         <TextView
             android:layout_width="wrap_content"
