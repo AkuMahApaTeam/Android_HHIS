@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mrabid.hhis.RiwayatPasienActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/_20sdp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_0"
+            android:textColor="@color/colorAccent"
+            android:textSize="@dimen/_16sdp"
+            android:textStyle="bold"
+            android:text="Dokter "/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_dokter"
+            android:layout_toRightOf="@+id/txt_0"
+            android:textColor="@color/colorAccent"
+            android:textSize="@dimen/_16sdp"
+            android:textStyle="bold"
+            android:text="Dokter Abid"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_tgl"
+            android:layout_alignParentRight="true"
+            android:text="17 Agustus 2004"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:id="@+id/txt_7"
+            android:layout_below="@+id/txt_dokter"
+            android:text="Pasien : "/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_toRightOf="@+id/txt_7"
+            android:id="@+id/txt_namaPasien"
+            android:layout_below="@+id/txt_dokter"
+            android:text="ainun"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_8"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:text="Umur : "
+            android:layout_below="@+id/txt_namaPasien"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_umur"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_toRightOf="@+id/txt_8"
+            android:text="30"
+            android:layout_below="@+id/txt_namaPasien"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_brtBdn"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="@dimen/_12sdp"
+            android:text="58"
+            android:layout_below="@+id/txt_tgl" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_tngBadan"
+            android:text="166"
+            android:layout_below="@+id/txt_tgl"
+            android:layout_marginTop="@dimen/_12sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_toLeftOf="@+id/txt_brtBdn"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt"
+            android:text="No_telp : "
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_below="@+id/txt_umur"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_No_telp"
+            android:layout_toRightOf="@+id/txt"
+            android:layout_below="@+id/txt"
+            android:text=""/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_below="@+id/txt_No_telp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:id="@+id/txt2"
+            android:text="Riwayat Kesehatan Keluarga:"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_riwayat"
+            android:layout_toRightOf="@+id/txt2"
+            android:layout_below="@+id/txt2"
+            android:text=""/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt3"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:layout_below="@+id/txt_riwayat"
+            android:text="Diagnosa :"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt10"
+            android:layout_below="@id/txt3"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:text="Keluhan :"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="tidur"
+            android:layout_below="@+id/txt10"
+            android:id="@+id/txt_keluhan"
+            android:layout_toRightOf="@+id/txt10"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_diagnosa"
+            android:layout_below="@+id/txt_riwayat"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:layout_alignParentRight="true"
+            android:textStyle="bold"
+            android:textColor="#B31"
+            android:text="HIV/AIDS"/>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt4"
+            android:text="Larangan :"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:layout_below="@+id/txt_keluhan"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_larangan"
+            android:layout_below="@+id/txt4"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_toRightOf="@+id/txt4"
+            android:text="Tidur\nMakan\nMinum"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt5"
+            android:layout_below="@+id/txt_larangan"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:text="Note : "/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_note"
+            android:layout_below="@+id/txt5"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:text="Tidak - ada"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_per"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_below="@+id/txt_note"
+            android:text="Perawatan"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_keperawatan"
+            android:layout_toRightOf="@+id/txt_per"
+            android:layout_below="@+id/txt_per"
+            android:text="perawatan"/>
+
+    </RelativeLayout>
+
+</ScrollView>
